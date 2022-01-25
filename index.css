@@ -59,7 +59,10 @@ a {
 #main #left a {
     text-decoration: none;
     font-size: 25px;
-    padding-top: 100px;
+}
+
+#main #left #content_left {
+    padding-top: 200px;
 }
 
 #main #right {
@@ -131,7 +134,8 @@ a {
 #ulink {
     text-decoration: none;
     position: relative;
-    display: inline-block
+    display: inline-block;
+    border-bottom: 1px solid red;
 }
 
 #ulink:before {
