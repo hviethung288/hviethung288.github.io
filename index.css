@@ -1,0 +1,179 @@
+body {
+    font-style: bold;
+    font-family: Tahoma;
+    width: 1000px;
+    text-align: center;
+    margin: 0px auto;
+    background-color: #fff
+}
+
+#top {
+    background: #000;
+    height: 40px;
+    color: #fff;
+    line-height: 22px;
+    font-size: 0.9rem;
+    letter-spacing: .02em;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+#banner {
+    background: red;
+    height: 250px;
+    width: 1000px;
+    ;
+    clear: both;
+}
+
+#ulink {
+    position: relative;
+    display: inline-block;
+}
+
+a {
+    color: #333
+}
+
+#ulink:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 0.2em;
+    width: 100%;
+    height: 2px;
+    background-color: #ff5981;
+}
+
+#main #left {
+    width: 600px;
+    background: #fff;
+    float: left;
+    min-height: 600px;
+}
+
+#main #left a {
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+#main #right {
+    width: 400px;
+    background: white;
+    float: left;
+    color: #333;
+    line-height: 22px;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+    min-height: 600px;
+}
+
+#footer {
+    background: #000;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    color: #fff;
+    clear: both;
+    line-height: 60px;
+}
+
+#top ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#top ul li {
+    list-style: none;
+    float: left;
+}
+
+#top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 20px 0px 10px;
+    width: 100px;
+    color: #fff;
+}
+
+#top ul li a .activeIns .activeFB {
+    color: #fff;
+}
+
+#top ul li .activeFB {
+    background: rgb(9, 136, 221);
+}
+
+#main #right img {
+    display: block;
+    margin: 100px 100px 0px 50px;
+    border-radius: 125px;
+}
+
+#main #right #contact {
+    margin: 30px 100px 0px 50px;
+    line-height: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 0;
+    letter-spacing: .03em;
+    text-decoration: none;
+    text-align: right;
+}
+
+#ulink {
+    text-decoration: none;
+    position: relative;
+    display: inline-block
+}
+
+#ulink:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: .2em;
+    width: 100%;
+    height: 2px;
+    background-color: #ff5981
+}
+
+#ulink:hover:before {
+    background-color: #fa8072
+}
+
+#ushadow {
+    text-shadow: 4px 4px 0 #0bffc2;
+    transition: text-shadow .3s ease-in-out
+}
+
+a:hover #ushadow {
+    text-shadow: -4px -4px 0 rgb(105, 206, 224)
+}
+
+#Title-sub {
+    font-size: .34em;
+    letter-spacing: .16em;
+    font-weight: 400;
+    text-transform: none;
+    display: block;
+    margin-top: 1.2rem;
+    padding-top: 1.6rem;
+    border-top: 0.45rem solid black;
+}
+
+.activeIns {
+    background: rgb(255, 174, 0);
+}
+
+.activeGH {
+    background: #fff;
+    color: #000;
+    width: 100px;
+}
