@@ -124,7 +124,7 @@ a {
     margin: 30px 100px 0px 50px;
     line-height: 25px;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 1.04rem;
     font-weight: 0;
     letter-spacing: .03em;
     text-decoration: none;
@@ -135,21 +135,7 @@ a {
     text-decoration: none;
     position: relative;
     display: inline-block;
-    border-bottom: 1px solid rgb(212, 35, 44);
-}
-
-#ulink:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    bottom: .2em;
-    width: 100%;
-    height: 2px;
-    background-color: #ff5981
-}
-
-#ulink:hover:before {
-    background-color: #fa8072
+    border-bottom: 1px solid rgb(209, 32, 41);
 }
 
 #ushadow {
@@ -162,7 +148,7 @@ a:hover #ushadow {
 }
 
 #Title-sub {
-    font-size: .5em;
+    font-size: 0.5em;
     letter-spacing: .16em;
     font-weight: 400;
     text-transform: none;
