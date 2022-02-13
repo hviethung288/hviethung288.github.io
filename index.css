@@ -39,16 +39,6 @@ a {
     color: #333
 }
 
-#ulink:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    bottom: 0.2em;
-    width: 100%;
-    height: 2px;
-    background-color: #ff5981;
-}
-
 #main #left {
     width: 600px;
     background: #fff;
