@@ -36,7 +36,8 @@ body {
 }
 
 a {
-    color: #333
+    color: #333;
+    background-color: #fff;
 }
 
 #main #left {
